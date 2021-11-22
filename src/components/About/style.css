@@ -1,0 +1,21 @@
+.about{
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+}
+.aboutMe{
+   
+   color: #E1E4E8 ;
+   font-family: 'Times New Roman', Times, serif;
+}
+.avatar {
+    margin-left: 20%;
+    margin-top: -10%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  .about h1{
+      color: #00D4FF;
+  }

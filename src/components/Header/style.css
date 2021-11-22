@@ -1,0 +1,106 @@
+body{
+    /* margin:0px !important;
+    width: 100%;
+    padding: 0;  */
+    background-image: linear-gradient(to right top, #051937, #061a37, #071a37, #081b36, #091b36);
+}
+a{
+    color: #0582A5 !important;
+}
+.logo{
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+}
+.navLink{
+    color: #fff !important;
+}
+.navLink:hover{
+    color: #0582A5 !important;
+}
+.centerDiv{
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 20%;
+    color: #fff;
+}
+.centerDiv h1{
+    color: #00D4FF;
+}
+.aboutText{
+    font-size: 20px;   
+    font-family: 'Times New Roman', Times, serif; 
+}
+.commonfield{
+    height:120px;
+    margin-left: 50%;
+    width: 50%;
+    border-radius: 4px;
+    border: none;
+    background-color: #051937;
+}
+.peopleimage{
+    height: 4%;
+    margin-top: 40%;
+    margin-left: 20px;
+}
+.common-btn{
+    background-color: #00D4FF;
+    color: #fff;
+    /* border-radius: 4px; */
+    width: 15%;
+    height: 40px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.typicalText{
+    color: #E1E4E8;
+}
+.svgImage{
+    margin-top: 10%;
+    margin-left: 0%;
+
+}
+
+.fixedText{
+    margin-left: 2px;
+    position: fixed;
+    color: #fff;
+    margin-top: -160px;
+}
+.vertical {
+    border-left: 2px solid white;
+    height: 200px;
+    position:absolute;
+    left: 100%;
+    margin-top: 10px;
+}
+.vertical2 {
+    border-left: 2px solid white;
+    height: 200px;
+    position:absolute;
+    left: 30%;
+    margin-top: 0px;
+}
+.fixedTextRight{
+    float: right;
+    color: #fff;
+    position: fixed;
+    right: 10px;
+    margin-top: -250px;
+
+}
+.profileText{
+    text-orientation:  sideways-right;;
+    writing-mode: vertical-rl;
+    color: #00D4FF;
+    font-size: 16px;
+    margin-top: -10px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}

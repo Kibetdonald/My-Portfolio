@@ -1,0 +1,90 @@
+.Myprojects{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.Myprojects h1{
+
+    color: #00D4FF;
+}
+.eternalLinks{
+    color: #000;
+    justify-content: space-between;
+}
+.fa-folder{
+    font-size: 24px !important;
+}
+.fa-github{
+    margin-left: 65%;
+    
+    font-size: 24px !important;
+}
+.fa-linkedin{
+    margin-left: 65%;
+    margin-top: 10px;
+    font-size: 24px !important;
+}
+.fa-twitter{
+    margin-left: 65%;
+    margin-top: 10px;
+    font-size: 24px !important;
+}
+.fa-instagram{
+    margin-left: 65%;
+    margin-top: 10px;
+    font-size: 24px !important;
+}
+.fa-github{
+    margin-left: 65%;
+    font-size: 24px !important;
+}
+.fa-external-link{
+    margin-left: 5%;
+    font-size: 24px !important;
+}
+
+.fa-folder:hover{
+    color: #00D4FF;
+}
+.fa-github:hover{
+    color: #00D4FF;
+}
+.fa-external-link:hover{
+    color: #00D4FF;
+}
+.fa-linkedin:hover{
+    color: #00D4FF;
+}
+.fa-twitter:hover{
+    color: #00D4FF;
+}
+.fa-instagram:hover{
+    color: #00D4FF;
+}
+.footerText{
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+}
+.showMore{
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 15%;
+    height: 40px;
+    color: #fff;
+    background-color: #00D4FF;
+    
+}
+.showMore:hover{
+    color: #00D4FF;
+    background-color: #fff;
+
+}
+.cardGlass{
+    background: rgba( 255, 235, 235, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

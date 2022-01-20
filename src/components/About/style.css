@@ -2,11 +2,13 @@
     color: #fff;
     width: 60%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .aboutMe{
-   
+   font-size: 3rem !important;
    color: #E1E4E8 ;
+   letter-spacing: 3px;
+
    font-family: 'Times New Roman', Times, serif;
 }
 .avatar {
@@ -14,8 +16,9 @@
     margin-top: -10%;
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 5%;
   }
   .about h1{
       color: #00D4FF;
   }
+

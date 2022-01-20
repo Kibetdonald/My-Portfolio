@@ -69,7 +69,7 @@
     margin-top: 5%;
     border: 1px solid black;
     border-radius: 4px;
-    width: 15%;
+    width: 100px;
     height: 40px;
     color: #fff;
     background-color: #00D4FF;
@@ -78,10 +78,10 @@
 .showMore:hover{
     color: #00D4FF;
     background-color: #fff;
-
 }
 .cardGlass{
-    background: rgba( 255, 235, 235, 0.35 );
+    color: #fff;
+    background: #091b36;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );

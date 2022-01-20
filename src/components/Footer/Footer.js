@@ -10,7 +10,7 @@ const Footer = (props) => {
   return (
 
     <div className="Footer">
-      Copyright @2021 | Designed & Build by:
+      Copyright @2022 | Designed & Build by:
      <span className="don"> Donald Kibet</span>
       <br />
     

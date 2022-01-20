@@ -12,10 +12,11 @@ const About = (props) => {
       <h1>About Me</h1>
       <Row>
         <Col>
-        <span className="Aboutme">My name is Donald Kibet and am skilled with both front-end and back-end development, technical support,
+        <span className="Aboutme" style={{fontSize: "18px",   color: "#E1E4E8"}}>My name is Donald Kibet and am skilled with both front-end and back-end development, technical support,
             database management and networking. Additionally, my abilities extend to critical thinking 
             and communication with proficiency in decision-making. My skill set is diverse and complementary,
-             and I spend my spare time working on improving my IT skills. </span>
+             and I spend my spare time working on improving my IT skills.
+        </span>
         </Col>
         <Col xs={6} md={4}>
      

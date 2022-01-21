@@ -51,9 +51,9 @@ const Header = (props) => {
                 </Nav.Link>
                 <Nav.Link>
                   <button
-                    style={{ marginTop: "-10%" }}
+                    style={{ marginTop: "-5%",marginLeft: "60%" }}
                     type="submit"
-                    onclick="window.open('file.doc')"
+                    onClick="window.open('file.doc')"
                     className="btn btn-outline-danger"
                   >
                     RESUME
@@ -66,7 +66,7 @@ const Header = (props) => {
       </Navbar>
 
       <div className="centerDiv">
-        <h1>Hi,</h1>
+        <h6>Hi,</h6>
         <h2>I'm Donald Kibet</h2>
         <TypeAnimation
           className="typicalText"
@@ -116,7 +116,9 @@ const Header = (props) => {
       {/* <button className="common-btn">Get in touch</button> */}
       <div class="btn btn-one">
         <span>Contact Me</span>
-      </div>
+      </div> 
+     
+
       <br />
 
       <div className="fixedText">
@@ -125,8 +127,9 @@ const Header = (props) => {
             <a href="https://github.com/Kibetdonald" target="_blank">
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
+       
           </Row>
-          <br/>
+          <div className="whitespace"> </div> 
         
           <Row>
             <a
@@ -140,17 +143,19 @@ const Header = (props) => {
               ></i>
             </a>
           </Row>
-          <br/>
+       
           <Row>
             <a href="">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </Row>
+       
           <Row>
             <a href="">
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </Row>
+       
           <Row>
             {" "}
             <a href="https://www.linkedin.com/in/donald-kibet-29a29a183/">
@@ -158,7 +163,7 @@ const Header = (props) => {
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
           </Row>
-
+          
           <div className="vertical"></div>
         </Col>
       </div>

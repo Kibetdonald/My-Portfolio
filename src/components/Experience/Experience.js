@@ -36,7 +36,7 @@ const Experience = (props) => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Freelancer</h3>
+    <h3 className="vertical-timeline-element-title">Freelancing, </h3>
     <h4 className="vertical-timeline-element-subtitle">Software development & writing</h4>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading

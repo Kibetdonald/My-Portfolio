@@ -6,8 +6,8 @@ import Experience from './Experience/Experience';
 import Myprojects from './Myprojects/project';
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer';
-import ScaleLoader
- from "react-spinners/ScaleLoader";
+import HashLoader
+ from "react-spinners/HashLoader";
 import './App.css'
 
 function App() {
@@ -17,14 +17,14 @@ function App() {
     setTimeout(()=>{
       setLoading(false)
 
-    }, 1500)
+    }, 2000)
   },[]);
   return (
     <div>
       {
         loading ?
         <div className="App">
-          <ScaleLoader
+          <HashLoader
         className="loader"
         style={{marginTop:"250px"}}
         color={"#00D4FF"}

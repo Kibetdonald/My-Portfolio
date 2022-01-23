@@ -17,7 +17,7 @@
     width: 300px;
     height: 300px;
     border-radius: 5%;
-    filter: drop-shadow(20px 10px #ccc);
+    /* filter: drop-shadow(20px 10px #ccc); */
     /* box-shadow: 3px 3px 1px #ccc; */
   }
   .about h1{

@@ -1,64 +1,210 @@
- /* Width: 1440px */
- @media screen and (max-width:1440px){
- 
-    
+/* Width: 1440px */
+@media screen and (max-width: 1440px) {
 }
 /* width 1024*/
-@media screen and (max-width:1280px){
-    
-
+@media screen and (max-width: 1280px) {
 }
-        /* width 1024*/
-@media screen and (max-width:1024px){
-
- 
+/* width 1024*/
+@media screen and (max-width: 1024px) {
 }
-@media screen and (max-width:992px){
-
+@media screen and (max-width: 992px) {
 }
 
-/* width 720*/             
-@media screen and (min-width:720px) and (max-width:979px)
+/* width 720*/
+@media screen and (min-width: 720px) and (max-width: 979px) {
+}
+
+/* max-width 576*/
+@media screen and (min-width: 576px) and (max-width: 768px) 
 {
-
+  .logo {
+    margin-left: 10%;
+    height: 55px;
+    width: 55px;
+  }
+  .centerDiv{
+        width: 70%;
+        margin-top: 12%;
+        margin-left: 15%;
+        color: #fff;
+    }
+  .centerDiv h2{
+        font-size: 1.5rem;
+    }
+    
+.fixedText{
+       opacity: 0;
+    }
+    .vertical {
+        opacity: 0;
+    }
+    .vertical2 {
+       opacity: 0;
+    }
+    .fixedTextRight{
+        opacity: 0;
+    
+    }
 }
 
- /* max-width 576*/
- @media screen and (min-width: 576px) and (max-width: 768px)
- {
-
- }
- 
- /* max-width 576 and minimum of 480*/
- @media screen and (min-width: 480px) and (max-width: 575px)
- {
-
-
- }
-
- 
- @media screen and (max-width: 480px)
- {
-
-
- }
 
 /* max-width 576 and minimum of 480*/
-@media screen and (min-width: 320px) and (max-width: 479px)
-{
-
+@media screen and (min-width: 480px) and (max-width: 575px) {
+  .logo {
+    margin-left: 10%;
+    height: 55px;
+    width: 55px;
+  }
+  .headerbody{
+    height: 100vh;
+  }
+  .centerDiv{
+        width: 70%;
+        margin-top: 12%;
+        margin-left: 15%;
+        color: #fff;
+    }
+  .centerDiv h2{
+        font-size: 1.5rem;
+    }
+    
+.fixedText{
+       opacity: 0;
+    }
+    .vertical {
+        opacity: 0;
+    }
+    .vertical2 {
+       opacity: 0;
+    }
+    .fixedTextRight{
+        opacity: 0;
+    
+    }
 }
 
+@media screen and (max-width: 480px) {
+  .logo {
+    margin-left: 10%;
+    height: 55px;
+    width: 55px;
+  }
+  .centerDiv{
+        width: 70%;
+        margin-top: 12%;
+        margin-left: 15%;
+        color: #fff;
+    }
+  .centerDiv h2{
+        font-size: 1.5rem;
+    }
+    
+.fixedText{
+       opacity: 0;
+    }
+    .vertical {
+        opacity: 0;
+    }
+    .vertical2 {
+       opacity: 0;
+    }
+    .fixedTextRight{
+        opacity: 0;
+    
+    }
+}
 
-
+/* max-width 576 and minimum of 480*/
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .logo {
+    margin-left: 10%;
+    height: 55px;
+    width: 55px;
+  }
+  .centerDiv{
+        width: 70%;
+        margin-top: 12%;
+        margin-left: 15%;
+        color: #fff;
+    }
+  .centerDiv h2{
+        font-size: 1.5rem;
+    }
+    
+.fixedText{
+       opacity: 0;
+    }
+    .vertical {
+        opacity: 0;
+    }
+    .vertical2 {
+       opacity: 0;
+    }
+    .fixedTextRight{
+        opacity: 0;
+    
+    }
+}
 /* width 320*/
-@media screen and (min-width:240px) and (max-width:320px)
-{
-
+@media screen and (min-width: 240px) and (max-width: 320px) {
+  .logo {
+    margin-left: 10%;
+    height: 55px;
+    width: 55px;
+  }
+  .centerDiv{
+        width: 70%;
+        margin-top: 12%;
+        margin-left: 15%;
+        color: #fff;
+    }
+  .centerDiv h2{
+        font-size: 1.5rem;
+    }
+    
+.fixedText{
+       opacity: 0;
+    }
+    .vertical {
+        opacity: 0;
+    }
+    .vertical2 {
+       opacity: 0;
+    }
+    .fixedTextRight{
+        opacity: 0;
+    
+    }
 }
 
 /* width 320*/
-@media screen and (max-width:240px)
-{
-
+@media screen and (max-width: 240px) {
+  .logo {
+    margin-left: 10%;
+    height: 55px;
+    width: 55px;
+  }
+  .centerDiv{
+        width: 100%;
+        margin-top: 12%;
+        margin-left: 15%;
+        color: #fff;
+    }
+  .centerDiv h2{
+        font-size: 1.5rem;
+    }
+    
+.fixedText{
+       opacity: 0;
+    }
+    .vertical {
+        opacity: 0;
+    }
+    .vertical2 {
+       opacity: 0;
+    }
+    .fixedTextRight{
+        opacity: 0;
+    
+    }
 }

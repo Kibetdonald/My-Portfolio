@@ -1,0 +1,55 @@
+/* Width: 1440px */
+@media screen and (max-width: 1440px) {
+}
+/* width 1024*/
+@media screen and (max-width: 1280px) {
+}
+/* width 1024*/
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+
+/* width 720*/
+@media screen and (min-width: 720px) and (max-width: 979px) {
+}
+
+/* max-width 576*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+}
+
+/* max-width 576 and minimum of 480*/
+@media screen and (min-width: 480px) and (max-width: 575px) 
+{
+  .Contact{
+    width: 80%;
+} 
+.card{
+  width: 80% !important;
+}
+
+  
+}
+
+@media screen and (max-width: 480px) 
+{
+  
+}
+
+/* max-width 576 and minimum of 480*/
+@media screen and (min-width: 320px) and (max-width: 479px) 
+{
+ 
+}
+
+/* width 320*/
+@media screen and (min-width: 240px) and (max-width: 320px) 
+{
+
+}
+
+/* width 320*/
+@media screen and (max-width: 240px) 
+{
+
+}

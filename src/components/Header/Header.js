@@ -6,8 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import style
 import TypeAnimation from "react-type-animation";
 import "./style.css";
+import "./responsive.css";
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import { Row, Col } from "react-bootstrap";
 import "../responsive.css";
 
@@ -18,10 +19,7 @@ import "../responsive.css";
 
 const Header = (props) => {
   return (
-    <div>
-
-
-
+    <div className="headerbody">
 
         {/* unresponsive nav */}
         <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
@@ -51,7 +49,7 @@ const Header = (props) => {
                 </Nav.Link>
                 <Nav.Link>
                   <button
-                    style={{ marginTop: "-5%",marginLeft: "60%" }}
+                    style={{ marginTop: "-5%"}}
                     type="submit"
                     onClick="window.open('file.doc')"
                     className="btn btn-outline-danger"

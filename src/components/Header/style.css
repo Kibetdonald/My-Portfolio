@@ -12,8 +12,12 @@ a{
     height: 65px;
     width: 65px;
 }
+.Navbar{
+    position: fixed;
+}
 .navbar-div{
 width: 100%;
+position: fixed;
 }
 .navLink{
     color: #fff !important;
@@ -22,7 +26,7 @@ width: 100%;
     color: #0582A5 !important;
 }
 .centerDiv{
-    width: 40%;
+    width: 60%;
     margin-top: 12%;
     margin-left: 15%;
     color: #fff;
@@ -48,11 +52,7 @@ width: 100%;
     border: none;
     background-color: #051937;
 }
-.peopleimage{
-    height: 4%;
-    margin-top: 40%;
-    margin-left: 20px;
-}
+
 .common-btn{
     background-color: #00D4FF;
     color: #fff;

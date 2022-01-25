@@ -2,12 +2,33 @@
 @media screen and (max-width: 1440px) {
 }
 /* width 1024*/
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) 
+{
+  
+  .logo {
+    margin-left: 20%;
+    height: 55px;
+    width: 55px;
+  }
 }
 /* width 1024*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) 
+{
+  .logo {
+    margin-left: 20%;
+    height: 55px;
+    width: 55px;
+  }
+
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 992px)
+ {
+  .logo {
+    margin-left: 20%;
+    height: 55px;
+    width: 55px;
+  }
 }
 
 /* width 720*/
@@ -31,6 +52,13 @@
   .centerDiv h2{
         font-size: 1.5rem;
     }
+    .centerDiv h3{
+      font-size: 2rem;
+  }
+
+.btn-one {
+  margin-left: 15%;
+}
     
 .fixedText{
        opacity: 0;

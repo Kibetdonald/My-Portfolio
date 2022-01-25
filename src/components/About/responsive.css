@@ -16,13 +16,18 @@
 
 /* max-width 576*/
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  .avatar{
+    margin-top: 10%;
+    margin-left: -4%;
+}  
+  
 }
 
 /* max-width 576 and minimum of 480*/
 @media screen and (min-width: 480px) and (max-width: 575px) 
 {
   .avatar{
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: -4%;
 }  
   

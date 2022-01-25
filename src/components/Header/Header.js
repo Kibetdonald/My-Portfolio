@@ -7,11 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import TypeAnimation from "react-type-animation";
 import "./style.css";
 import "./responsive.css";
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Navbar, Nav, Container } from "react-bootstrap";
 // import Typical from "react-typical";
 import { Row, Col } from "react-bootstrap";
 import "../responsive.css";
-
+// import { jsfunct } from "./app";
 /**
  * @author
  * @function Header
@@ -20,9 +20,8 @@ import "../responsive.css";
 const Header = (props) => {
   return (
     <div className="headerbody">
-
-        {/* unresponsive nav */}
-        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
+      {/* unresponsive nav */}
+      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
         <Container>
           <Navbar.Brand href="#home">
             {" "}
@@ -48,8 +47,9 @@ const Header = (props) => {
                   Contact
                 </Nav.Link>
                 <Nav.Link>
+                  {/* <jsfunct/> */}
                   <button
-                    style={{ marginTop: "-5%"}}
+                    style={{ marginTop: "-5%" }}
                     type="submit"
                     onClick="window.open('file.doc')"
                     className="btn btn-outline-danger"
@@ -62,39 +62,41 @@ const Header = (props) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      
       <div className="centerDiv">
         <h6>Hi,</h6>
-        <h2>I'm Donald Kibet</h2>
-        <TypeAnimation
+        <h2>I'm Donald</h2>
+        {/* <TypeAnimation
           className="typicalText"
           cursor={true}
           sequence={[
             "A jack of all trade in the tech industry.",
-            1000,
+            4000,
             "I design and build user interface",
-            1000,
+            4000,
             "A back end & front end developer",
-            1000,
+            4000,
             "Technical support specialist",
-            1000,
+            4000,
             "I design and build user interface",
-            1000,
+            4000,
             "Flutter developer",
-            1000,
+            4000,
 
             "",
           ]}
           wrapper="p"
           repeat={Infinity}
-        />
+        /> */}
 
+        <h3>I design and build products for the web.</h3>
 
-        <span className="aboutText">
+        <p className="aboutText" style={{ width: "50%" }}>
           I'm a passionate junior fullstack software engineer specializing in
           building highly responsive web and android apps using the latest
           technology platforms.
-        </span>
+        </p>
+
         <br />
       </div>
 
@@ -114,8 +116,7 @@ const Header = (props) => {
       {/* <button className="common-btn">Get in touch</button> */}
       <div class="btn btn-one">
         <span>Contact Me</span>
-      </div> 
-     
+      </div>
 
       <br />
 
@@ -125,10 +126,9 @@ const Header = (props) => {
             <a href="https://github.com/Kibetdonald" target="_blank">
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
-       
           </Row>
-          <div className="whitespace"> </div> 
-        
+          <div className="whitespace"> </div>
+
           <Row>
             <a
               href="https://mail.google.com/mail/u/0/#inbox?compose=new"
@@ -141,19 +141,19 @@ const Header = (props) => {
               ></i>
             </a>
           </Row>
-       
+
           <Row>
             <a href="">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </Row>
-       
+
           <Row>
             <a href="">
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </Row>
-       
+
           <Row>
             {" "}
             <a href="https://www.linkedin.com/in/donald-kibet-29a29a183/">
@@ -161,7 +161,7 @@ const Header = (props) => {
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
           </Row>
-          
+
           <div className="vertical"></div>
         </Col>
       </div>

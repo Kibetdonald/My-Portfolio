@@ -4,13 +4,18 @@ body{
     padding: 0;  */
     background-image: linear-gradient(to right top, #051937, #061a37, #071a37, #081b36, #091b36);
 }
+
 a{
     color: #0582A5 !important;
 }
+.headerbody
+{
+    height: 100vh;
+}
 .logo{
     margin-left: -100px;
-    height: 65px;
-    width: 65px;
+    height: 66px;
+    width: 66x;
 }
 .Navbar{
     position: fixed;
@@ -27,22 +32,32 @@ position: fixed;
 }
 .centerDiv{
     width: 60%;
-    margin-top: 12%;
-    margin-left: 15%;
+    margin-top: 15%;
+    margin-left: 20%;
     color: #fff;
 }
 .centerDiv h6{
     color: #00D4FF;
     font-size: 1.5rem;
+    transition-delay: 100ms;
 }
 .centerDiv h2{
     font-size: 3.0rem;
+}
+.centerDiv h3{
+    font-size: 3.0rem;
+    color: #8892b0;
+}
+.about{
+    width: 40%;
+    
 }
 
 .aboutText{
     /* font-family: 'Heebo', sans-serif; */
     font-size: 18px;
-    color: #E1E4E8;
+    color: #a8b2d1;
+    
 }
 .commonfield{
     height:120px;
@@ -75,8 +90,8 @@ position: fixed;
     color: #FFF;
     transition: all 0.3s;
     position: relative;
-    margin-left: 15%;
-    margin-top: 15px;
+    margin-left: 20%;
+    margin-top: -2%;
     background-color: #0582A5;
   }
   .btn-one span {
@@ -149,20 +164,20 @@ position: fixed;
     position: fixed;
     letter-spacing: 10px;
     color: #fff;
-    margin-top: -100px;
+    margin-top: -150px;
 }
 .vertical {
     border-left: 2px solid white;
     height: 200px;
     position:absolute;
     left: 90%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .vertical2 {
     border-left: 2px solid white;
     height: 200px;
     position:absolute;
-    left: 30%;
+    left: -35%;
     margin-top: 0px;
 }
 .fixedTextRight{
@@ -179,8 +194,30 @@ position: fixed;
     color: #ffff;
     font-size: 16px;
     margin-top: -10px;
+    margin-left: -70%;
     letter-spacing: 3px;
     font-family: 'Times New Roman', Times, serif;
+}
+.profileText:hover{
+    color: #00D4FF;
+}
+.fa-google{
+    color: #c4c4c4;
+}
+.fa-instagram{
+    color: #c4c4c4;
+}
+.fa-twitter{
+    color: #c4c4c4;
+}
+.fa-github{
+    color: #c4c4c4;
+}
+.fa-linkedin{
+    color: #c4c4c4;
+}
+.fa-google:hover{
+    color: #00D4FF;
 }
 .whitespace{
     height: 10px;

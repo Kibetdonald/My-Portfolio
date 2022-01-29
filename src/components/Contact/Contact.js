@@ -32,33 +32,27 @@ const Contact = (props) => {
         }}
       >
         <div class="card-body">
-          <div class="row g-3">
-            <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                placeholder="example@gmail.com"
-                aria-label="email address"
-              />
-            </div>
-            <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="John Doe"
-                aria-label="Last name"
-              />
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-         
-         
-        </div>
+        <div class="form-floating mb-3">
+                    <input name="name" type="text" class="form-control" id="floatingInput" required />
+                    <label for="floatingInput">Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input name="email" type="email" class="form-control" id="floatingInput" required />
+                    <label for="floatingInput">Email address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input name="subject" type="text" class="form-control" id="floatingInput" required />
+                    <label for="floatingInput">Phone Number</label>
+                </div>
+
+
+                <div class="form-floating">
+                    <textarea class="form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: 100 }}></textarea>
+                    <label for="floatingInput">Comments</label>
+                </div>
+              </div>
         <button class="common-btn">Send Message</button>
       </div>
     

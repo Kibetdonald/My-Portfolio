@@ -10,7 +10,9 @@ const Footer = (props) => {
   return (
 
     <div className="Footer">
+      <p className='credits'>
       Copyright @2022 | Designed & Build by:
+      </p>
      <span className="don"> Donald Kibet</span>
       <br />
     

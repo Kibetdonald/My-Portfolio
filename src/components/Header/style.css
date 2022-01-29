@@ -10,12 +10,16 @@ a{
 }
 .headerbody
 {
-    height: 100vh;
+    /* height: 100vh; */
+    margin-top: 2%;
 }
 .logo{
     margin-left: -100px;
-    height: 66px;
-    width: 66x;
+    /* margin-top: 50% !important; */
+    height: 60px;
+    width: 60px;
+    opacity: 0px;
+  
 }
 .Navbar{
     position: fixed;
@@ -33,20 +37,24 @@ position: fixed;
 .centerDiv{
     width: 60%;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 15%;
     color: #fff;
+   
 }
 .centerDiv h6{
     color: #00D4FF;
     font-size: 1.5rem;
-    transition-delay: 100ms;
+    opacity: 0;
+
 }
 .centerDiv h2{
     font-size: 3.0rem;
+    opacity: 0;
 }
 .centerDiv h3{
     font-size: 3.0rem;
     color: #8892b0;
+    opacity: 0;
 }
 .about{
     width: 40%;
@@ -57,8 +65,12 @@ position: fixed;
     /* font-family: 'Heebo', sans-serif; */
     font-size: 18px;
     color: #a8b2d1;
+    width: 50% !important;
+    opacity: 0;
+    /* letter-spacing: 0.1em; */
     
 }
+
 .commonfield{
     height:120px;
     margin-left: 50%;
@@ -86,18 +98,19 @@ position: fixed;
 }
 
 /* Btn one */
-.btn-one {
+.btn_one {
     color: #FFF;
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
     position: relative;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: -2%;
+    opacity: 0;
     background-color: #0582A5;
   }
-  .btn-one span {
+  .btn_one span {
     transition: all 0.3s;
   }
-  .btn-one::before {
+  .btn_one::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -118,15 +131,15 @@ position: fixed;
     border-bottom-color: rgba(255,255,255,0.5); */ 
     transform: scale(0.1, 1);
   }
-  .btn-one:hover span {
+  .btn_one:hover span {
     letter-spacing: 2px;
     color: #fff;
   }
-  .btn-one:hover::before {
+  .btn_one:hover::before {
     opacity: 1; 
     transform: scale(1, 1); 
   }
-  .btn-one::after {
+  .btn_one::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -139,7 +152,7 @@ position: fixed;
     transition: all 0.3s;
     background-color: rgba(255,255,255,0.1);
   }
-  .btn-one:hover::after {
+  .btn_one:hover::after {
     opacity: 0; 
     transform: scale(0.1, 1);
   }
@@ -160,7 +173,7 @@ position: fixed;
 }
 
 .fixedText{
-    margin-left: 50px;
+    margin-left: 5%;
     position: fixed;
     letter-spacing: 10px;
     color: #fff;
@@ -185,7 +198,7 @@ position: fixed;
     color: #fff !important;
     position: fixed;
     right: 10px;
-    margin-top: -150px;
+    margin-top: -180px;
 
 }
 .profileText{

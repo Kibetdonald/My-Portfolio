@@ -10,6 +10,7 @@
     "bootstrap": "^4.6.0",
     "dotenv": "^11.0.0",
     "font-awesome": "^4.7.0",
+    "gsap": "^3.9.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
@@ -21,6 +22,7 @@
     "react-typist": "^2.0.5",
     "react-vanilla-tilt": "^1.0.0",
     "react-vertical-timeline-component": "^3.3.3",
+    "sass": "^1.49.0",
     "three-gltf-loader-wtower": "^1.112.2",
     "web-vitals": "^1.1.2"
   },

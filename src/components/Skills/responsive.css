@@ -40,7 +40,12 @@
 /* max-width 576 and minimum of 480*/
 @media screen and (min-width: 320px) and (max-width: 479px) 
 {
- 
+  .Skills{
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    margin-top: 15%;
+}
 }
 
 /* width 320*/

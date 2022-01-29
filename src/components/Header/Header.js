@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useRef} from "react";
 // import { Navbar, Nav, Container} from 'react-bootstrap'
 // import { Col, Row } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,6 +11,8 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 // import Typical from "react-typical";
 import { Row, Col } from "react-bootstrap";
 import "../responsive.css";
+import { TweenMax, Power3 } from "gsap";
+// import { useRef } from "react";
 // import { jsfunct } from "./app";
 /**
  * @author
@@ -18,16 +20,139 @@ import "../responsive.css";
  **/
 
 const Header = (props) => {
+  let logoItem= useRef(null);
+  let aboutText = useRef(null);
+  let heading_one= useRef(null);
+  let heading_two = useRef(null);
+  let heading_three = useRef(null);
+  let btn_one = useRef(null);
+  let nav = useRef(null);
+  let fixedText = useRef(null);
+  let fixedTextRight = useRef(null);
+  // console.log(logoItem);
+  useEffect(()=>{
+    console.log(logoItem)
+    TweenMax.to(
+      logoItem,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut
+      }
+      
+    )
+    TweenMax.to(
+      aboutText,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+    TweenMax.to(
+      heading_one,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+    TweenMax.to(
+      heading_two,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+    TweenMax.to(
+      heading_three,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+    TweenMax.to(
+      btn_one,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+    // navbar animation
+    TweenMax.to(
+      nav,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+    TweenMax.to(
+      fixedText,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+    TweenMax.to(
+      fixedTextRight,
+      .8,
+      {
+        opacity: 1,
+        y: -20,
+        ease: Power3.easeOut,
+        delay: .2
+      }
+      
+    )
+  },[])
   return (
     <div className="headerbody">
       {/* unresponsive nav */}
-      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
+      <Navbar className="nav"  ref={el => {
+              nav = el
+
+            }} collapseOnSelect expand="lg" bg="transparent" variant="light">
         <Container>
           <Navbar.Brand href="#home">
             {" "}
-            <img className="logo" src="./assets/images/logo.png" alt="logo" />
+            <br/>
+            <img
+            ref={el => {
+              logoItem = el
+
+            }}
+             className="logo" 
+             src="./assets/images/logo.png" 
+             alt="logo" />
           </Navbar.Brand>
-          <Navbar.Toggle />
+          <Navbar.Toggle style={{backgroundColor: "#0582A5"}} />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
               <Nav style={{ marginTop: "auto" }} className="me-auto">
@@ -64,8 +189,14 @@ const Header = (props) => {
       </Navbar>
       
       <div className="centerDiv">
-        <h6>Hi,</h6>
-        <h2>I'm Donald</h2>
+        <h6  ref={el => {
+              heading_one = el
+
+            }} className="heading_one">Hi,</h6>
+        <h2  ref={el => {
+              heading_two = el
+
+            }} className="heading_two">I'm Donald</h2>
         {/* <TypeAnimation
           className="typicalText"
           cursor={true}
@@ -89,9 +220,16 @@ const Header = (props) => {
           repeat={Infinity}
         /> */}
 
-        <h3>I design and build products for the web.</h3>
+        <h3 ref={el => {
+              heading_three = el
 
-        <p className="aboutText" style={{ width: "50%" }}>
+            }} className="heading_three">I design and build products for the web.</h3>
+
+        <p   ref={el => {
+              aboutText = el
+
+            }}
+             className="aboutText">
           I'm a passionate junior fullstack software engineer specializing in
           building highly responsive web and android apps using the latest
           technology platforms.
@@ -114,13 +252,19 @@ const Header = (props) => {
             type="text"
           /> */}
       {/* <button className="common-btn">Get in touch</button> */}
-      <div class="btn btn-one">
+      <div   ref={el => {
+              btn_one = el
+
+            }} class="btn btn_one">
         <span>Contact Me</span>
       </div>
 
       <br />
 
-      <div className="fixedText">
+      <div className="fixedText"  ref={el => {
+              fixedText = el
+
+            }}>
         <Col>
           <Row>
             <a href="https://github.com/Kibetdonald" target="_blank">
@@ -166,7 +310,10 @@ const Header = (props) => {
         </Col>
       </div>
 
-      <div className="fixedTextRight">
+      <div className="fixedTextRight" ref={el => {
+              fixedTextRight = el
+
+            }} >
         <Col>
           <Row>
             <span className="profileText">kibetdonald97@gmail.com</span>

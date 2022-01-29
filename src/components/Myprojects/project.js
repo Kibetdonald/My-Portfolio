@@ -155,7 +155,7 @@ const Myprojects = (props) => {
                Greenleaf Nursery Shop
               </h5>
               <p class="card-text">
-              Online nursery shop for the sale of nursery plants. Users can click on any plant to
+              Online nursery shop for the sale of nursery plants. Users can click on any plant for instance grapes then they
                 get more information including pricing, reviews and rating. Users can select items and add them to their shopping cart
               </p>
             </div>
@@ -184,7 +184,7 @@ const Myprojects = (props) => {
               </h5>
               <p class="card-text">
               A flutter application for the booking of ride, similar to uber. It leverages firebase as the database and gelocator
-               plugin which provides easy access to platform specific location services.
+               plugin which provides easy access to platform specific location services. It is still a work in progress and i hope to accomplish it ASAP.
               </p>
             </div>
           </div>

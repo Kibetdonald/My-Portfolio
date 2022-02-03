@@ -1,11 +1,13 @@
 .Skills{
-    width: 60%;
+    width: 40%;
     margin: auto;
-    color: #fff;
+    color: #fff !important;
+    
     margin-top: 3%;
 }
 .Skills h1{
     color: #00D4FF;
+    text-align: center;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #00D4FF;
@@ -13,4 +15,21 @@
 }
 .title-text{
    
+}
+.Typography{
+    color: #fff !important;
+}
+.language{
+    color: #fff;
+    float: left;
+    /* margin-top: -6%; */
+    /* margin-left: 10px; */
+}
+.rating{
+    color: #fff;
+    float: right;
+    margin-left: 40%;
+}
+.moreinfo{
+    margin: auto;
 }

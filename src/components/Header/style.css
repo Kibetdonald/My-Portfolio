@@ -16,8 +16,8 @@ a{
 .logo{
     margin-left: -100px;
     /* margin-top: 50% !important; */
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     opacity: 0px;
   
 }
@@ -36,8 +36,8 @@ position: fixed;
 }
 .centerDiv{
     width: 60%;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin-top: 12%;
+    margin-left: 17%;
     color: #fff;
    
 }
@@ -102,7 +102,7 @@ position: fixed;
     color: #FFF;
     /* transition: all 0.3s; */
     position: relative;
-    margin-left: 15%;
+    margin-left: 17%;
     margin-top: -2%;
     opacity: 0;
     background-color: #0582A5;
@@ -177,7 +177,7 @@ position: fixed;
     position: fixed;
     letter-spacing: 10px;
     color: #fff;
-    margin-top: -150px;
+    margin-top: -10%;
 }
 .vertical {
     border-left: 2px solid white;
@@ -233,7 +233,7 @@ position: fixed;
     color: #00D4FF;
 }
 .whitespace{
-    height: 10px;
+    height: 18px;
 }
 /* .fa {
     color: #fff !important;

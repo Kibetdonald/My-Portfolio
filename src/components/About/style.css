@@ -14,9 +14,10 @@
 .avatar {
     margin-left: 20%;
     margin-top: -10%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 3%;
+    box-shadow: 10px 10px #8892b0;
     /* filter: drop-shadow(20px 10px #ccc); */
     /* box-shadow: 3px 3px 1px #ccc; */
   }

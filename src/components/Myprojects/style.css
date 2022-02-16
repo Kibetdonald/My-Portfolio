@@ -7,6 +7,9 @@
 
     color: #00D4FF;
 }
+.progress{
+    height: 0.8rem!important;
+}
 .eternalLinks{
     color: #000;
     justify-content: space-between;

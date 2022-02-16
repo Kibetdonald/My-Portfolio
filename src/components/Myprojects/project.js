@@ -24,7 +24,7 @@ const Myprojects = (props) => {
           <div
             class="card"
             style={{
-              width: "18rem",
+              width: "16rem",
               // width: "33%",
               borderTopColor: "orange",
               color: "#fff",
@@ -55,7 +55,7 @@ const Myprojects = (props) => {
           <div
             class="card"
             style={{
-              width: "18rem",
+              width: "16rem",
               // width: "33%",
               borderTopColor: "#81D8F7",
               color: "#fff",
@@ -84,7 +84,7 @@ const Myprojects = (props) => {
           <div
             class="card"
             style={{
-              width: "18rem",
+              width: "16rem",
               // width: "33%",
               borderTopColor: "#FD2155",
               color: "#fff",
@@ -114,7 +114,7 @@ const Myprojects = (props) => {
           <div
             class="card"
             style={{
-              width: "18rem",
+              width: "16rem",
               // width: "33%",
               borderTopColor: "#76FF03",
               color: "#fff",
@@ -143,7 +143,7 @@ const Myprojects = (props) => {
           <div
             class="card"
             style={{
-              width: "18rem",
+              width: "16rem",
               // width: "33%",
               borderTopColor: "#FD2155",
               color: "#fff",
@@ -171,7 +171,7 @@ const Myprojects = (props) => {
           <div
             class="card"
             style={{
-              width: "18rem",
+              width: "16rem",
               // width: "33%",
               borderTopColor: "#81D8F7",
               color: "#fff",

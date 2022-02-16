@@ -18,7 +18,7 @@ const Experience = (props) => {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="&nbsp;2021 November - present"
+    date="&nbsp;&nbsp;2021 November - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
@@ -32,7 +32,7 @@ const Experience = (props) => {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="&nbsp;2020 - present&nbsp;&nbsp;"
+    date="&nbsp; October 2020 - 2021 October&nbsp;&nbsp;"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
@@ -45,10 +45,10 @@ const Experience = (props) => {
   
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2019 May &nbsp;"
+    date="&nbsp;&nbsp; 2019 May &nbsp;- 2019 August"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="&nbsp;2021 November - present"
+    // date="&nbsp;2021 November - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
@@ -62,11 +62,11 @@ const Experience = (props) => {
   {/* University Education */}
   <VerticalTimelineElement
     
-    date="&nbsp;September 2016- October 2020"
+    date="&nbsp;September 2016- October 2020&nbsp;&nbsp;"
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="&nbsp;2021 November - present"
+    // date="&nbsp;2021 November - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<SchoolIcon />}
   >
@@ -82,11 +82,11 @@ const Experience = (props) => {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2012 - 2015 &nbsp;"
+    date="&nbsp;&nbsp;2012 - 2015"
 
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="&nbsp;2021 November - present"
+    // date="&nbsp;2021 November - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<SchoolIcon />}
   >
@@ -102,11 +102,11 @@ const Experience = (props) => {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="&nbsp;2004 - 20011"
+    date="&nbsp;2004 - 2011&nbsp;&nbsp;"
     // className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="&nbsp;2021 November - present"
+    // date="&nbsp;2021 November - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Primary School</h3>

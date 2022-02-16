@@ -11,13 +11,13 @@ a{
 .headerbody
 {
     /* height: 100vh; */
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .logo{
-    margin-left: -100px;
+    margin-left: -50%;
     /* margin-top: 50% !important; */
-    height: 80px;
-    width: 80px;
+    height: 66x;
+    width: 66px;
     opacity: 0px;
   
 }
@@ -36,23 +36,23 @@ position: fixed;
 }
 .centerDiv{
     width: 60%;
-    margin-top: 12%;
+    margin-top: 15%;
     margin-left: 17%;
     color: #fff;
    
 }
 .centerDiv h6{
     color: #00D4FF;
-    font-size: 1.5rem;
+    font-size: 1.5 rem;
     opacity: 0;
 
 }
 .centerDiv h2{
-    font-size: 3.0rem;
+    font-size: 2.8 rem;
     opacity: 0;
 }
 .centerDiv h3{
-    font-size: 3.0rem;
+    font-size: 40px !important;
     color: #8892b0;
     opacity: 0;
 }
@@ -177,7 +177,7 @@ position: fixed;
     position: fixed;
     letter-spacing: 10px;
     color: #fff;
-    margin-top: -10%;
+    margin-top:  -200px;
 }
 .vertical {
     border-left: 2px solid white;
@@ -198,7 +198,7 @@ position: fixed;
     color: #fff !important;
     position: fixed;
     right: 10px;
-    margin-top: -180px;
+    margin-top: -200px;
 
 }
 .profileText{
@@ -225,6 +225,7 @@ position: fixed;
 }
 .fa-github{
     color: #c4c4c4;
+
 }
 .fa-linkedin{
     color: #c4c4c4;
@@ -233,7 +234,7 @@ position: fixed;
     color: #00D4FF;
 }
 .whitespace{
-    height: 18px;
+    height: 12px;
 }
 /* .fa {
     color: #fff !important;

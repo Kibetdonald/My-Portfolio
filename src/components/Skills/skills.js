@@ -18,7 +18,7 @@ const Skills = (props) => {
   return (
     <div className="Skills" className="Skills">
       <h1>Skills</h1>
-      <Accordion style={{ backgroundColor: "#051937" }}>
+      <Accordion style={{ backgroundColor: "#051937" }} defaultExpanded="true">
         <AccordionSummary
           expandIcon={<MdExpandMore color="#fff" />}
           aria-controls="panel1a-content"
@@ -210,7 +210,7 @@ const Skills = (props) => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion style={{ backgroundColor: "#051937" }}>
+      <Accordion style={{ backgroundColor: "#051937" }} >
         <AccordionSummary
           expandIcon={<MdExpandMore color="#fff" />}
           aria-controls="panel2a-content"

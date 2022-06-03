@@ -1,25 +1,19 @@
 body{
-    /* margin:0px !important;
-    width: 100%;
-    padding: 0;  */
     background-image: linear-gradient(to right top, #051937, #061a37, #071a37, #081b36, #091b36);
 }
-
 a{
     color: #0582A5 !important;
 }
 .headerbody
 {
     /* height: 100vh; */
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 .logo{
     margin-left: -50%;
-    /* margin-top: 50% !important; */
-    height: 66x;
-    width: 66px;
-    opacity: 0px;
-  
+    margin-top: -2em !important;
+    height: 58px;
+    width: 58px;
 }
 .Navbar{
     position: fixed;
@@ -36,25 +30,22 @@ position: fixed;
 }
 .centerDiv{
     width: 60%;
-    margin-top: 15%;
-    margin-left: 17%;
+    margin-top: 12%;
+    margin-left: 20%;
     color: #fff;
    
 }
 .centerDiv h6{
     color: #00D4FF;
     font-size: 1.5 rem;
-    opacity: 0;
 
 }
 .centerDiv h2{
     font-size: 2.8 rem;
-    opacity: 0;
 }
 .centerDiv h3{
     font-size: 40px !important;
     color: #8892b0;
-    opacity: 0;
 }
 .about{
     width: 40%;
@@ -66,7 +57,6 @@ position: fixed;
     font-size: 18px;
     color: #a8b2d1;
     width: 50% !important;
-    opacity: 0;
     /* letter-spacing: 0.1em; */
     
 }
@@ -88,7 +78,6 @@ position: fixed;
     height: 40px;
     border: none;
     border-radius: 4px;
-
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -100,11 +89,9 @@ position: fixed;
 /* Btn one */
 .btn_one {
     color: #FFF;
-    /* transition: all 0.3s; */
     position: relative;
-    margin-left: 17%;
+    margin-left: 20%;
     margin-top: -2%;
-    opacity: 0;
     background-color: #0582A5;
   }
   .btn_one span {
@@ -118,7 +105,6 @@ position: fixed;
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 0;
     
     transition: all 0.3s;
     border-top-width: 1px;
@@ -152,8 +138,7 @@ position: fixed;
     transition: all 0.3s;
     background-color: rgba(255,255,255,0.1);
   }
-  .btn_one:hover::after {
-    opacity: 0; 
+  .btn_one:hover::after { 
     transform: scale(0.1, 1);
   }
 
@@ -169,15 +154,15 @@ position: fixed;
 .svgImage{
     margin-top: 10%;
     margin-left: 0%;
-
 }
 
 .fixedText{
     margin-left: 5%;
     position: fixed;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     color: #fff;
-    margin-top:  -200px;
+    margin-top:  -220px;
+    font-size: 12px;
 }
 .vertical {
     border-left: 2px solid white;
@@ -190,8 +175,8 @@ position: fixed;
     border-left: 2px solid white;
     height: 200px;
     position:absolute;
-    left: -35%;
-    margin-top: 0px;
+    left: -38%;
+    margin-top: 5px;
 }
 .fixedTextRight{
     float: right;
@@ -205,8 +190,8 @@ position: fixed;
     text-orientation:  sideways-right;;
     writing-mode: vertical-rl;
     color: #ffff;
-    font-size: 16px;
-    margin-top: -10px;
+    font-size: 14px;
+    margin-top: -50px;
     margin-left: -70%;
     letter-spacing: 3px;
     font-family: 'Times New Roman', Times, serif;

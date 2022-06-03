@@ -6,7 +6,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-// import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Fade from 'react-reveal';
 import { MdExpandMore } from "react-icons/md";
 
 /**
@@ -16,9 +16,12 @@ import { MdExpandMore } from "react-icons/md";
 
 const Skills = (props) => {
   return (
-    <div className="Skills" className="Skills">
+    <div id="Skills" className="Skills">
+      <Fade bottom>
       <h1>Skills</h1>
-      <Accordion style={{ backgroundColor: "#051937" }} defaultExpanded="true">
+      </Fade>
+    <Fade bottom>
+    <Accordion style={{ backgroundColor: "#051937" }} defaultExpanded="true">
         <AccordionSummary
           expandIcon={<MdExpandMore color="#fff" />}
           aria-controls="panel1a-content"
@@ -117,7 +120,9 @@ const Skills = (props) => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion style={{ backgroundColor: "#051937" }}>
+    </Fade>
+    <Fade bottom>
+    <Accordion style={{ backgroundColor: "#051937" }}>
         <AccordionSummary
           expandIcon={<MdExpandMore color="#fff"/>}
           aria-controls="panel1a-content"
@@ -210,6 +215,8 @@ const Skills = (props) => {
           </Typography>
         </AccordionDetails>
       </Accordion>
+    </Fade>
+      <Fade bottom>
       <Accordion style={{ backgroundColor: "#051937" }} >
         <AccordionSummary
           expandIcon={<MdExpandMore color="#fff" />}
@@ -282,53 +289,7 @@ const Skills = (props) => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-
-      {/* <Tabs style={{width: "70%",backgroungColor:"#0A2540", margin: "auto"}} defaultActiveKey="Languages" className="justify-content-center" default>
-        <Tab eventKey="Languages" title="Languages">
-         <ul style={{margin: "auto", width:"30%", fontSize: "18px"}}>
-          <li>Python</li>
-           <li>PHP</li>
-           <li>HTML</li>
-           <li>CSS</li>
-           <li>JS</li>
-           <li>Java</li>
-           
-    
-         </ul>
-        </Tab>
-        <Tab eventKey="Framework" title="Framework">
-        <ul style={{margin: "auto", width:"0%", fontSize: "18px"}}>
-           <li>Flutter</li>
-           <li>ReactJS</li>
-           <li>NodeJS</li>
-           <li>ExpressJS</li>
-           <li>Laravel</li>
-           <li>Django</li>
-
-    
-         </ul>
-        </Tab>
-        <Tab eventKey="Tools" className="title-text" title="Tools">
-          
-            <Col>
-            <ul style={{marginLeft: "65%",  fontSize: "18px"}}>
-           <li>Codepen</li>
-           <li>Azure</li>
-           <li>VSCode</li>
-           <li>Android Studio</li>
-           <li>Linux terminal</li>
-           <li>Docker</li>
-           <li>Github</li>
-          <li>AWS</li>
-           
-    
-         </ul>
-
-            </Col>
-          
-        </Tab>
-
-      </Tabs> */}
+      </Fade>
     </div>
   );
 };

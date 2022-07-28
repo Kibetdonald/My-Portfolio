@@ -8,6 +8,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 // import Typical from "react-typical";
 import { Row, Col } from "react-bootstrap";
 import "../responsive.css";
+import { RandomReveal } from "react-random-reveal";
 import Fade from "react-reveal";
 
 const Header = () => {
@@ -32,19 +33,19 @@ const Header = () => {
               <Navbar.Text>
                 <Nav style={{ marginTop: "auto" }} className="me-auto">
                   <Nav.Link className="navLink" href="#About">
-                    About
+                    <span style={{color: "#8892b0"}}>01. </span>About
                   </Nav.Link>
                   <Nav.Link className="navLink" href="#Skills">
-                    Skills
+                  <span style={{color: "#8892b0"}}>02. </span> Skills
                   </Nav.Link>
                   <Nav.Link className="navLink" href="#Experience">
-                    Experience
+                  <span style={{color: "#8892b0"}}>03. </span> Experience
                   </Nav.Link>
                   <Nav.Link className="navLink" href="#Myprojects">
-                    Projects
+                  <span style={{color: "#8892b0"}}>04. </span> Projects
                   </Nav.Link>
                   <Nav.Link className="navLink" href="#Contact">
-                    Contact
+                  <span style={{color: "#8892b0"}}>05. </span>  Contact
                   </Nav.Link>
                   <Nav.Link>
                     {/* <jsfunct/> */}
@@ -69,7 +70,16 @@ const Header = () => {
           <h6 className="heading_one">Hi,</h6>
         </Fade>
         <Fade bottom>
-          <h2 className="heading_two">I'm Donald</h2>
+          <h2 className="heading_two">
+            <RandomReveal
+              // onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+              style={{ fontSize: "42px" }}
+              isPlaying
+              duration={4.6}
+              revealDuration={0.5}
+              characters=" I'm Donald."
+            />
+          </h2>
         </Fade>
         <Fade bottom>
           <h3 className="heading_three">

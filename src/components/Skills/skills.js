@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Col, Row, Tabs, Tab } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import "./responsive.css";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";

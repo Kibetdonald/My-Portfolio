@@ -57,6 +57,7 @@ const Header = () => {
                     >
                       RESUME
                     </button>
+                    
                   </Nav.Link>
                 </Nav>
               </Navbar.Text>

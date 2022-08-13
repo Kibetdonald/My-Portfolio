@@ -25,7 +25,23 @@ const Experience = (props) => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="&nbsp;&nbsp;2021 November - present"
+            date="&nbsp; July 2022 - Present&nbsp;&nbsp;"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            // icon={<WorkIcon />}
+          >
+              <h3 className="vertical-timeline-element-title">
+              Impax Business solution
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+            Microsoft Dynamics 365 F&O Development Intern
+            </h4>
+            <p>ERP Customizing, designing, and supporting using X++(AX7).</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="&nbsp;&nbsp;2021 November - 2022 July"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             // icon={<WorkIcon />}
           >

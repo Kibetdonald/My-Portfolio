@@ -61,6 +61,7 @@ const Skills = (props) => {
                 <Col className="rating">90%</Col>
               </Row>
               
+              
                 <div class="progress" style={{width: "80%"}}>
                   <div
                     class="progress-bar"
@@ -75,6 +76,27 @@ const Skills = (props) => {
                 </div>
              </>
              <br/> 
+             <>
+             <Row>
+                <Col className="language">SASS</Col>
+                <Col className="rating">90%</Col>
+              </Row>
+              
+              
+                <div class="progress" style={{width: "80%"}}>
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style={{width: "90%"}}
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    90%
+                  </div>
+                </div>
+             </>
+             <br/>
              <>
              <Row>
                 <Col className="language">React JS</Col>
@@ -176,6 +198,26 @@ const Skills = (props) => {
              <Row>
                 <Col className="language">Django</Col>
                 <Col className="rating">85%</Col>
+              </Row>
+              
+                <div class="progress" style={{width: "80%"}}>
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style={{width: "85%"}}
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    85%
+                  </div>
+                </div>
+             </>
+             <br/> 
+             <>
+             <Row>
+                <Col className="language">Node JS</Col>
+                <Col className="rating">80%</Col>
               </Row>
               
                 <div class="progress" style={{width: "80%"}}>

@@ -10,8 +10,22 @@ import { Row, Col } from "react-bootstrap";
 import "../responsive.css";
 import { RandomReveal } from "react-random-reveal";
 import Fade from "react-reveal";
+import resume from "../../data/Resume.pdf"
 
 const Header = () => {
+  const onButtonClick = () => {
+    fetch({resume}).then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = resume;
+            alink.click();
+        })
+    }).catch({
+    
+    })
+}
   return (
     <div className="headerbody">
       <Fade top>
@@ -49,14 +63,13 @@ const Header = () => {
                   </Nav.Link>
                   <Nav.Link>
                     {/* <jsfunct/> */}
-                    <button
+                    <a
                       style={{ marginTop: "-5%" }}
-                      type="submit"
-                      onClick="window.open('file.doc')"
+                     onClick={onButtonClick}
                       className="btn btn-outline-danger"
                     >
                       RESUME
-                    </button>
+                    </a>
                     
                   </Nav.Link>
                 </Nav>

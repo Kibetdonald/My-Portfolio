@@ -213,6 +213,26 @@ const Skills = (props) => {
                   </div>
                 </div>
              </>
+             <br/>
+             <>
+             <Row>
+                <Col className="language">Spring Boot</Col>
+                <Col className="rating">70%</Col>
+              </Row>
+              
+                <div class="progress" style={{width: "80%"}}>
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style={{width: "70%"}}
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    70%
+                  </div>
+                </div>
+             </>
              <br/> 
              <>
              <Row>
@@ -253,7 +273,6 @@ const Skills = (props) => {
                   </div>
                 </div>
              </>
-            
           </Typography>
         </AccordionDetails>
       </Accordion>

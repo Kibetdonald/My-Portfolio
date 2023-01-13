@@ -7,6 +7,10 @@
 
     color: #00D4FF;
 }
+.stack{
+    color: grey;
+    font-size: 15px;
+}
 .progress{
     height: 0.8rem!important;
 }

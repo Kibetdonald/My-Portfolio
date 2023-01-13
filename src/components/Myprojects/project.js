@@ -56,6 +56,8 @@ const Myprojects = (props) => {
                       >
                         {item.title}
                       </h5>
+                     <span>Stack:</span> <span className="stack">{item.Stack}</span>
+                     <div style={{height: "10px"}}/>
                       <p class="card-text">{item.description}</p>
                     </div>
                   </div>
